@@ -100,4 +100,11 @@ class CityListTest {
 
         assertEquals(1, cityList.countDistinctCities());
     }
+
+    @Test
+    void testCountDisCities() {
+        CityList cityList = mockCityList();
+
+        assertEquals(1, cityList.countDisCities());
+    }
 }
